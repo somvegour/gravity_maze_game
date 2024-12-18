@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(185, 219, 130);
+}
+
+
+
+
+/* General styles for controls */
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#controls button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background-color: #0056b3;
+}
+
+/* Game Container */
+#container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-color: #4a75688a;
+    overflow: hidden;
+}
+
+/* Ball and Star */
+#ball, #star {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#ball {
+    background-color: blue;
+}
+#star {
+    background-color: red;
+}
+
+/* Scoreboard */
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+
